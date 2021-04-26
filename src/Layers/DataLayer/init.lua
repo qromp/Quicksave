@@ -5,7 +5,7 @@ local HttpService = game:GetService("HttpService")
 local RawSchemes = require(script.Schemes.raw)
 local CompressedSchemes = require(script.Schemes.compressed)
 
-local MINIMUM_LENGTH_TO_COMPRESS = 1000
+local MINIMUM_LENGTH_TO_COMPRESS = math.huge
 
 local DataLayer = {
 	schemes = {
