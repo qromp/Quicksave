@@ -1,0 +1,11 @@
+[package]
+name = "evaera/quicksave"
+description = "DataStore abstraction library that won't drive you insane"
+version = "0.1.0"
+license = "MIT"
+content_root = "src"
+
+[dependencies]
+MockDataStoreService = "https://github.com/buildthomas/MockDataStoreService.git"
+Promise = "https://github.com/evaera/roblox-lua-promise"
+t = "https://github.com/osyrisrblx/t.git"
